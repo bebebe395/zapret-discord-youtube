@@ -55,8 +55,8 @@ if "%1"=="admin" (
 setlocal EnableDelayedExpansion
 :menu
 cls
-call :ipset_switch_status
-call :game_switch_status
+call :ipset_switch_any
+call :game_switch_any
 call :check_updates_switch_status
 call :get_strategy_name
 
